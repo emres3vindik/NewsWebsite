@@ -1,0 +1,146 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: rgb(11, 11, 60);
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.footer p span:hover {
+  color: red;
+}
+
+.anasayfa .bilim .spor {
+  padding: 10x;
+}
+
+.main {
+  display: flex;
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.article h3 {
+  color: red;
+}
+
+.article img {
+  width: 300px;
+  height: auto;
+}
+
+.footer {
+  background-color: rgb(11, 11, 60);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 175px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #333;
+}
+
+.space {
+  width: 300px;
+}
+
+.weather {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.temperature {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  margin-left: 90px;
+}
+
+.japonya,
+.kuzeyisiklari,
+.elonmusk,
+.astronot,
+.nobelkimya {
+  border-radius: 10px;
+}
+
+.eurodolaraltın img {
+  font-size: 17px;
+  text-align: center;
+  margin: 7px;
+  vertical-align: middle;
+}
